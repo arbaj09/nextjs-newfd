@@ -1,0 +1,178 @@
+/* Styles for the container */
+.Container {
+  margin: 20px auto;
+  width: 75%;
+  /* max-width: 600px; */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 35rem;
+}
+
+/* Styles for the buttons */
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.INVEST-BUTTON {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.INVEST-BUTTON:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the investment calculator sections */
+.Investment-container, .Investment-container-Expect {
+  /* background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; */
+
+  background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 22rem;
+}
+
+/* Styles for range input and text color */
+.Amount input[type="range"],
+.Duration input[type="range"],
+.Interest-Rate input[type="range"],
+.Expect input[type="range"] {
+  width: 100%;
+}
+
+.text-color {
+  color:green
+}
+
+/* Styles for select dropdowns */
+.Option, .Expect {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.Regular, .Citizen {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Styles for the "Calculate" button */
+.Calculate, #Lumpsum {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.Calculate:hover, #Lumpsum:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the result section */
+.Container-invested {
+  margin-top: -30rem;
+  /* margin-bottom: 6rem; */
+  margin-left: 25rem;
+
+
+ 
+  height: 26rem;
+
+  width: 32rem;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  /* background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; */
+}
+
+#Text {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 26rem;
+    margin: 20px auto;
+    /* max-width: 626px; */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 59rem;
+  }
+
+  /* .Investment-container, .Investment-container-Expect, .Container-invested {
+   
+  } */
+  .Container-invested {
+    padding: 48px;
+    margin-top: 0;
+    /* margin-bottom: 6rem; */
+    margin-left: 0;
+  
+  
+   
+    height: 26rem;
+  
+    width: 19rem;
+    background-color: #fff;
+  
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    
+    
+    /* background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; */
+  }
+  .btn {
+    gap: 4rem;
+    
+  }
+}
